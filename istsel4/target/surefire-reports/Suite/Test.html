@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 18 18:21:59 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23726 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td><div><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login2.feature:20)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1161717391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1161717391'><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login2.feature:20)
+</pre></div></td>
+<td>10</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td><div><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login3.feature:20)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1773795720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1773795720'><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login3.feature:20)
+</pre></div></td>
+<td>8</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify dynamic table presence and content", "Dynamic Table Verification"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;I am on the dynamic table page&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the dynamic table page&quot;)
+public void i_am_on_the_dynamic_table_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the dynamic table&quot;)
+public void i_check_for_the_dynamic_table() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the dynamic table should be displayed&quot;)
+public void the_dynamic_table_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the table should have at least {int} rows and {int} columns&quot;)
+public void the_table_should_have_at_least_rows_and_columns(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the table should contain the value {string}&quot;)
+public void the_table_should_contain_the_value(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace709500937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace709500937'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;I am on the dynamic table page&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the dynamic table page&quot;)
+public void i_am_on_the_dynamic_table_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the dynamic table&quot;)
+public void i_check_for_the_dynamic_table() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the dynamic table should be displayed&quot;)
+public void the_dynamic_table_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the table should have at least {int} rows and {int} columns&quot;)
+public void the_table_should_have_at_least_rows_and_columns(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the table should contain the value {string}&quot;)
+public void the_table_should_contain_the_value(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>6</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td><div><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login4.feature:20)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace872537399", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace872537399'><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login4.feature:20)
+</pre></div></td>
+<td>7</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td><div><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login.feature:20)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace428323376", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace428323376'><pre>java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login.feature:20)
+</pre></div></td>
+<td>10</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td></td>
+<td>11</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td></td>
+<td>11</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td></td>
+<td>10</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+<tr>
+<td title='com.ist.testrunner.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.ist.testrunner.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to Orange HRM", "Login page validations"</td>
+<td></td>
+<td>9</td>
+<td>com.ist.testrunner.CucumberRunnerTest@333d4a8c</td></tr>
+</table><p>
+</body>
+</html>

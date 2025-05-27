@@ -1,0 +1,6 @@
+com\ist\config\ConfigReader.class
+com\ist\stepdef\LoginStepDef.class
+com\ist\webdrivermanger\ConfigReader.class
+com\ist\testrunner\CucumberRunnerTest.class
+com\ist\utils\WaitFor.class
+com\ist\pages\LoginPage.class

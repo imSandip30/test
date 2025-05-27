@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="24.587" tests="9" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\imsan\OneDrive\Documents\Test_Ws\istsel2\target\test-classes;C:\Users\imsan\OneDrive\Documents\Test_Ws\istsel2\target\classes;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-java\7.12.0\cucumber-java-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-core\7.12.0\cucumber-core-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin\7.12.0\cucumber-gherkin-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.0\cucumber-gherkin-messages-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\imsan\.m2\repository\io\cucumber\datatable\7.12.0\datatable-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-plugin\7.12.0\cucumber-plugin-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\docstring\7.12.0\docstring-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\html-formatter\20.3.0\html-formatter-20.3.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\imsan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-testng\7.12.0\cucumber-testng-7.12.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\imsan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\imsan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\imsan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\imsan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\imsan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\imsan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\imsan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\imsan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\imsan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\imsan\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\imsan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\imsan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\imsan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.2.0\extentreports-cucumber7-adapter-1.2.0.jar;C:\Users\imsan\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\imsan\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\imsan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\imsan\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\imsan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\extent-pdf-report\1.7.4\extent-pdf-report-1.7.4.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.2.4\cucumber-pdf-report-2.2.4.jar;C:\Users\imsan\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\imsan\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\imsan\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\imsan\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\imsan\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\imsan\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\imsan\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\table-layout\1.2.0\table-layout-1.2.0.jar;C:\Users\imsan\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\imsan\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\imsan\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\imsan\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\imsan\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\imsan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\imsan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\imsan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\imsan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\imsan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\imsan\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\imsan\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\imsan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\imsan\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\imsan\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\imsan\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\imsan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\imsan\AppData\Local\Temp\surefire15198104779078493011\surefirebooter-20250518182158810_3.jar C:\Users\imsan\AppData\Local\Temp\surefire15198104779078493011 2025-05-18T18-21-58_701-jvmRun1 surefire-20250518182158810_1tmp surefire_0-20250518182158810_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\imsan\OneDrive\Documents\Test_Ws\istsel2\target\test-classes;C:\Users\imsan\OneDrive\Documents\Test_Ws\istsel2\target\classes;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-java\7.12.0\cucumber-java-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-core\7.12.0\cucumber-core-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin\7.12.0\cucumber-gherkin-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.0\cucumber-gherkin-messages-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\imsan\.m2\repository\io\cucumber\datatable\7.12.0\datatable-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-plugin\7.12.0\cucumber-plugin-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\docstring\7.12.0\docstring-7.12.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\html-formatter\20.3.0\html-formatter-20.3.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\imsan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-testng\7.12.0\cucumber-testng-7.12.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\imsan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\imsan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\imsan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\imsan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\imsan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\imsan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\imsan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\imsan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\imsan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\imsan\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\imsan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\imsan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\imsan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.2.0\extentreports-cucumber7-adapter-1.2.0.jar;C:\Users\imsan\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\imsan\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\imsan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\imsan\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\imsan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\extent-pdf-report\1.7.4\extent-pdf-report-1.7.4.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.2.4\cucumber-pdf-report-2.2.4.jar;C:\Users\imsan\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\imsan\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\imsan\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\imsan\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\imsan\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\imsan\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\imsan\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\table-layout\1.2.0\table-layout-1.2.0.jar;C:\Users\imsan\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\imsan\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\imsan\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\imsan\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\imsan\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\imsan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\imsan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\imsan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\imsan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\imsan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\imsan\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\imsan\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\imsan\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\imsan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\imsan\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\imsan\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\imsan\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\imsan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="C:\Users\imsan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\imsan\OneDrive\Documents\Test_Ws\istsel2"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\imsan\AppData\Local\Temp\surefire15198104779078493011\surefirebooter-20250518182158810_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23+37"/>
+    <property name="user.name" value="imsan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23+37"/>
+    <property name="localRepository" value="C:\Users\imsan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\imsan\AppData\Local\Temp\"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="C:\Users\imsan\OneDrive\Documents\Test_Ws\istsel2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\imsan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/imsan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin/server;C:/Users/imsan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\imsan\Videos\allure-2.32.0\allure-2.32.0\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\imsan\AppData\Local\Microsoft\WindowsApps;C:\Users\imsan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.9.9\apache-maven\src\bin;C:\Users\imsan\Videos\allure-2.32.0\allure-2.32.0\bin;C:\Users\imsan\AppData\Roaming\npm;C:\Program Files\Java\jdk-21\bin;;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23+37"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify dynamic table presence and content&quot;, &quot;Dynamic Table Verification&quot;](1)" classname="com.ist.testrunner.CucumberRunnerTest" time="6.142">
+    <failure message="The step &apos;I am on the dynamic table page&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the dynamic table page&quot;)&#10;public void i_am_on_the_dynamic_table_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;I check for the dynamic table&quot;)&#10;public void i_check_for_the_dynamic_table() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the dynamic table should be displayed&quot;)&#10;public void the_dynamic_table_should_be_displayed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the table should have at least {int} rows and {int} columns&quot;)&#10;public void the_table_should_have_at_least_rows_and_columns(Integer int1, Integer int2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the table should contain the value {string}&quot;)&#10;public void the_table_should_contain_the_value(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I am on the dynamic table page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the dynamic table page")
+public void i_am_on_the_dynamic_table_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the dynamic table")
+public void i_check_for_the_dynamic_table() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the dynamic table should be displayed")
+public void the_dynamic_table_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the table should have at least {int} rows and {int} columns")
+public void the_table_should_have_at_least_rows_and_columns(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the table should contain the value {string}")
+public void the_table_should_contain_the_value(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+    <system-out><![CDATA[...
+... TestNG 7.8.0 by Cédric Beust (cedric@beust.com)
+...
+
+
+@LoginFeature @LoginB
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login2.feature:9&amp#27;[0m
+
+@LoginFeature @Login
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login.feature:9&amp#27;[0m
+
+@LoginFeature @LoginA
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login.feature:16&amp#27;[0m
+
+Scenario: Verify dynamic table presence and content            &amp#27;[90m# src/main/resources/LAD5Fault.feature:6&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the dynamic table page&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI check for the dynamic table&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe dynamic table should be displayed&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe table should have at least 2 rows and 2 columns&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe table should contain the value "Alfreds Futterkiste"&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+May 18, 2025 6:22:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](2)" classname="com.ist.testrunner.CucumberRunnerTest" time="4.807">
+    <failure message="Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login.feature:20)
+]]></failure>
+    <system-out><![CDATA[
+@LoginFeature @LoginC
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login2.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m                 &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"A"&amp#27;[0m                     &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m                 &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"A"&amp#27;[0m                      &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m               &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m               &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login.feature:20)
+&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[May 18, 2025 6:22:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](3)" classname="com.ist.testrunner.CucumberRunnerTest" time="0.455">
+    <system-out><![CDATA[
+@LoginFeature @Login1
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login3.feature:9&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](4)" classname="com.ist.testrunner.CucumberRunnerTest" time="0.078">
+    <system-out><![CDATA[
+@LoginFeature @Login2
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login3.feature:16&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](5)" classname="com.ist.testrunner.CucumberRunnerTest" time="4.806">
+    <failure message="Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login2.feature:20)
+]]></failure>
+    <system-out><![CDATA[
+@LoginFeature @Login2
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login4.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"B"&amp#27;[0m                     &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"B"&amp#27;[0m                      &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login2.feature:20)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[May 18, 2025 6:22:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](6)" classname="com.ist.testrunner.CucumberRunnerTest" time="4.098">
+    <failure message="Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login3.feature:20)
+]]></failure>
+    <system-out><![CDATA[
+@LoginFeature @Login4
+Scenario: Login to Orange HRM                       &amp#27;[90m# src/main/resources/Login4.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m                 &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m               &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                     &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                      &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login3.feature:20)
+&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m                 &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m               &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[May 18, 2025 6:22:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+May 18, 2025 6:22:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](7)" classname="com.ist.testrunner.CucumberRunnerTest" time="4.514"/>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](8)" classname="com.ist.testrunner.CucumberRunnerTest" time="5.652">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login to Orange HRM&quot;, &quot;Login page validations&quot;](9)" classname="com.ist.testrunner.CucumberRunnerTest" time="7.187">
+    <failure message="Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login4.feature:20)
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                       &amp#27;[90m# com.ist.stepdef.LoginStepDef.userIsOnLoginPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                     &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                      &amp#27;[90m# com.ist.stepdef.LoginStepDef.userEntersPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# com.ist.stepdef.LoginStepDef.userClicksOnLoginButton()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should navigate to Orange HRM home page&amp#27;[0m &amp#27;[90m# com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Navigation to dashboard failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.ist.stepdef.LoginStepDef.userShouldNavigateToOrangeHrmHomePage(LoginStepDef.java:76)
+	at ✽.User should navigate to Orange HRM home page(file:///C:/Users/imsan/OneDrive/Documents/Test_Ws/istsel2/src/main/resources/Login4.feature:20)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
